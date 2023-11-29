@@ -1,0 +1,7 @@
+export const allEmployees = "allEmployees"
+export const oneEmployee = "oneEmployee"
+export const getError = "getError"
+export const createNewEmployee = "createNewEmployee"
+export const deleteoneEmployee = "deleteoneEmployee"
+export const editoneemployee= "editoneemployee"
+// export const employeesApi = "http://localhost:5555/api/v1/employees"

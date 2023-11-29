@@ -1,13 +1,99 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif !important;
+  background-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none !important;
+}
+/*START NAVBAR */
+.navbar {
+  height: 200px !important;
+  color: #ffffff !important;
+}
+
+.navbar-brand img {
+  width: 195px !important;
+
+}
+
+.nav-link {
+  font-size: 18px !important;
+  margin-left: 15px;
+  margin-right: 10px;
+  font-weight: 500 !important;
+  line-height: 39px;
+  text-align: center;
+  color: #929292 !important;
+  transition: .3s ease;
+}
+
+.nav-link:hover {
+  color: #002d62 !important;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
+
+.btn.btn-primary {
+  padding: 2px 26px !important;
+  border-radius: 14px;
+  font-size: 18px !important;
+  font-weight: 500;
+  background-color: #002d62 !important;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-new {
+  transition: .5s ease;
+}
+
+.btn-new:hover {
+  transform: scale(1.05);
+  transition: .5s ease;
+}
+.form-label {
+color: #002d62 !important;
+}
+input::placeholder {
+color: #777777b1!important;
+}
+.me-2.form-control {
+  height: 45px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 55px;
+  margin-right: 10px !important;
+  position: relative;
+  background: #f2f2f2;
+  line-height: 39px;
+  text-align: left;
+  color: #929292;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  font-size: 22px;
+  margin: 12px 22px;
+  cursor: pointer;
+  color: #929292;
+}
+.main-btn, .btn.btn-primary {
+  border-radius: 5px;
+  width: 70px;
+  font-size: 13px !important;
+  padding: 2px 8px !important;
+  font-weight: 500 !important;
+  background: #002d62;
+  color: #ffffff !important;
+  margin-left: 10px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.main-btn:hover {
+  letter-spacing: 2px;
+  cursor: pointer;
 }
